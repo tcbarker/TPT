@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040.61 597.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #656565;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_5ab34ca5-e204-42f5-9364-8a30a2a9d8f2" data-name=" 5ab34ca5-e204-42f5-9364-8a30a2a9d8f2">
+    <circle class="cls-2" cx="298.65" cy="298.65" r="298.65" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="_1ee16907-b6ea-41a7-a52f-ed70cc95d9ef" data-name=" 1ee16907-b6ea-41a7-a52f-ed70cc95d9ef">
+    <rect class="cls-2" x="683.4" y="180.54" width="323.46" height="187.57" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="_4ecac37b-d851-4508-a6a8-9c5a7a5933c2" data-name=" 4ecac37b-d851-4508-a6a8-9c5a7a5933c2">
+    <ellipse class="cls-1" cx="684.47" cy="274.32" rx="33.75" ry="93.47" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g id="_4ecac37b-d851-4508-a6a8-9c5a7a5933c2-2" data-name=" 4ecac37b-d851-4508-a6a8-9c5a7a5933c2-2">
+    <ellipse class="cls-2" cx="1006.86" cy="274.32" rx="33.75" ry="93.47" vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>
