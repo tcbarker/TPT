@@ -4,9 +4,10 @@
       <meta name="viewport" content="width=device-width, user-scalable=no">
       <!-- <script type="text/javascript" src="Box2D.js"></script> -->
       <!-- <script>const Module = { TOTAL_MEMORY: 256*1024*1024 };</script><script src="./Box2D_v2.2.1_min.wasm.js" type="text/javascript"></script> -->
+      <script nomodule defer type="text/javascript" crossorigin src="https://tcbarker.github.io/TPT/nomodule.js"></script>
       <title>That Pocket There!</title>
-     <script type="module" crossorigin src="https://tcbarker.github.io/TPT/assets/index-B3EaQDLm.js"></script>
-     <link rel="stylesheet" crossorigin href="https://tcbarker.github.io/TPT/assets/index-BrsKLjHL.css">
+     <script type="module" crossorigin src="https://tcbarker.github.io/TPT/assets/index-B1DthMDB.js"></script>
+     <link rel="stylesheet" crossorigin href="https://tcbarker.github.io/TPT/assets/index-DrwPbCnW.css">
    </head>
    <body>
       <div id="message"></div>
@@ -22,8 +23,16 @@
 
       <div id="topmenucontainer">
          <input id="topcheck" type="checkbox" />
-         <label id="playername" for="topcheck">Loading...</label>
-         <div id="topmenu" />
+         <label for="topcheck">
+            <img src = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20data-name='Layer%201'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20199%20228'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%23fff;%20stroke-width:%200px;%20}%20%3c/style%3e%3c/defs%3e%3cpath%20class='cls-1'%20d='M0,228c0-34.79,11.14-66.29,29.14-89.1,18.01-22.8,42.88-36.9,70.36-36.9s52.35,14.1,70.36,36.9c18.01,22.8,29.14,54.3,29.14,89.1'/%3e%3ccircle%20class='cls-1'%20cx='99.5'%20cy='45.5'%20r='45.5'/%3e%3c/svg%3e" alt="User">
+            <p id="playername">Loading...</p>
+         </label>
+         <div >
+            <button id="fsb" class="emptybutton">
+               <img src = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20data-name='Layer%201'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20256%20256'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%23fff;%20stroke-width:%200px;%20}%20%3c/style%3e%3c/defs%3e%3cpolygon%20class='cls-1'%20points='8%208%208%2080%204%2080%200%2080%200%200%2080%200%2080%204%2080%208%208%208'/%3e%3cpolygon%20class='cls-1'%20points='248%208%20176%208%20176%204%20176%200%20256%200%20256%2080%20252%2080%20248%2080%20248%208'/%3e%3cpolygon%20class='cls-1'%20points='248%20248%20248%20176%20252%20176%20256%20176%20256%20256%20176%20256%20176%20252%20176%20248%20248%20248'/%3e%3cpolygon%20class='cls-1'%20points='8%20248%2080%20248%2080%20252%2080%20256%200%20256%200%20176%204%20176%208%20176%208%20248'/%3e%3c/svg%3e" alt="Go full screen">
+            </button>
+         </div>
+         <div id="topmenu">Please Wait</div>
       </div>
       
    </body>
