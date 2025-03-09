@@ -5,8 +5,9 @@
       <!-- <script type="text/javascript" src="Box2D.js"></script> -->
       <!-- <script>const Module = { TOTAL_MEMORY: 256*1024*1024 };</script><script src="./Box2D_v2.2.1_min.wasm.js" type="text/javascript"></script> -->
       <title>That Pocket There!</title>
-     <script type="module" crossorigin src="https://tcbarker.github.io/TPT/assets/index-CS0AqF3C.js"></script>
-     <link rel="stylesheet" crossorigin href="https://tcbarker.github.io/TPT/assets/index-CYHaTvAr.css">
+      <base target="_blank" rel="noopener">
+     <script type="module" crossorigin src="https://tcbarker.github.io/TPT/assets/index-pBGiSzlK.js"></script>
+     <link rel="stylesheet" crossorigin href="https://tcbarker.github.io/TPT/assets/index-DU-kCWqK.css">
    </head>
    <body>
       <div id="hud"></div>
@@ -35,10 +36,15 @@
          <div id="topmenu">Please Wait</div>
       </div>
       
+      <!-- script nomodule defer type="text/javascript" src="nomodule.js" -->
+      <script nomodule>
+         document.getElementById("playername").innerText = "Error: Browser Outdated";
+         document.getElementById("topmenu").innerText = "Module not supported. Update browser/device.";
+      </script>
+      <template id="svgtemplates">
+         <img id="comment.svg" src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20data-name='Layer%201'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20226%20170.19'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20none;%20}%20.cls-1,%20.cls-2%20{%20stroke:%20%23000;%20stroke-miterlimit:%2010;%20}%20.cls-2%20{%20fill:%20%23fff;%20}%20%3c/style%3e%3c/defs%3e%3cpath%20class='cls-2'%20d='M225.5,79.5c0,10.91-3.15,21.3-8.84,30.75s-13.93,17.96-24.11,25.11c-10.18,7.15-22.3,12.93-35.76,16.93-13.46,4-28.26,6.21-43.79,6.21s-30.33-2.21-43.79-6.21c-30.17-10.23-47.34-13.15-43.71,6.21,3,16-8,15-11-4-2.69-17.05,12-21-5.16-44.25C3.65,100.8.5,90.41.5,79.5s3.15-21.3,8.84-30.75,13.93-17.96,24.11-25.11,22.3-12.93,35.76-16.93c13.46-4,28.26-6.21,43.79-6.21s30.33,2.21,43.79,6.21,25.58,9.78,35.76,16.93,18.42,15.66,24.11,25.11,8.84,19.84,8.84,30.75Z'/%3e%3cpolyline%20class='cls-1'%20points='32%2055.5%2052.87%2048.5%2073.75%2055.5%2094.62%2048.5%20115.5%2055.5%20136.37%2048.5%20157.25%2055.5%20178.12%2048.5%20198.5%2055.5'/%3e%3cpolyline%20class='cls-1'%20points='31.6%20105.17%2052.47%2098.17%2073.35%20105.17%2094.22%2098.17%20115.1%20105.17%20135.97%2098.17%20156.85%20105.17%20177.72%2098.17%20198.1%20105.17'/%3e%3cpolyline%20class='cls-1'%20points='198.1%2074.17%20177.22%2081.17%20156.35%2074.17%20135.47%2081.17%20114.6%2074.17%2093.72%2081.17%2072.85%2074.17%2051.97%2081.17%2031.6%2074.17'/%3e%3c/svg%3e"/>
+         <img id="placewhite.svg" src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='svg'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20296.12%20241.64'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%23fff;%20stroke-width:%200px;%20}%20%3c/style%3e%3c/defs%3e%3cpath%20class='cls-1'%20d='M178.17,45.7c70.57-27.47,15.17-93.23,100.73,11.65,15.84,19.42,20.68,22.41,14.81,27.26-24.42,20.2-71.41,52.99-85.42,61.59-17.1,10.5-27.74,20.91-45.49,42.24-19.18,23.05-18.98,62.39-45.3,51.26-27.27-11.53,35.45-62.85,2.58-90.83-31.07-26.45-83.92-7.87-90.67,25.26-4.27,20.96,22.55,55.99-.84,64.2C4.49,246.8-6.51,168.02,3.96,141.2,26.12,84.62,100.05,50.57,160.07,49.88'/%3e%3ccircle%20class='cls-1'%20cx='75.55'%20cy='200.22'%20r='41.42'/%3e%3c/svg%3e"/>
+         <img id="shot.svg" src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_1'%20data-name='Layer%201'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201040.61%20597.3'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%23656565;%20}%20.cls-1,%20.cls-2%20{%20stroke-width:%200px;%20}%20.cls-2%20{%20fill:%20%23fff;%20}%20%3c/style%3e%3c/defs%3e%3cg%20id='_5ab34ca5-e204-42f5-9364-8a30a2a9d8f2'%20data-name='%205ab34ca5-e204-42f5-9364-8a30a2a9d8f2'%3e%3ccircle%20class='cls-2'%20cx='298.65'%20cy='298.65'%20r='298.65'%20vector-effect='non-scaling-stroke'/%3e%3c/g%3e%3cg%20id='_1ee16907-b6ea-41a7-a52f-ed70cc95d9ef'%20data-name='%201ee16907-b6ea-41a7-a52f-ed70cc95d9ef'%3e%3crect%20class='cls-2'%20x='683.4'%20y='180.54'%20width='323.46'%20height='187.57'%20vector-effect='non-scaling-stroke'/%3e%3c/g%3e%3cg%20id='_4ecac37b-d851-4508-a6a8-9c5a7a5933c2'%20data-name='%204ecac37b-d851-4508-a6a8-9c5a7a5933c2'%3e%3cellipse%20class='cls-1'%20cx='684.47'%20cy='274.32'%20rx='33.75'%20ry='93.47'%20vector-effect='non-scaling-stroke'/%3e%3c/g%3e%3cg%20id='_4ecac37b-d851-4508-a6a8-9c5a7a5933c2-2'%20data-name='%204ecac37b-d851-4508-a6a8-9c5a7a5933c2-2'%3e%3cellipse%20class='cls-2'%20cx='1006.86'%20cy='274.32'%20rx='33.75'%20ry='93.47'%20vector-effect='non-scaling-stroke'/%3e%3c/g%3e%3c/svg%3e"/>
+      </template>
    </body>
-   <!-- script nomodule defer type="text/javascript" src="nomodule.js" -->
-   <script nomodule>
-      document.getElementById("playername").innerText = "Error: Browser Outdated";
-      document.getElementById("topmenu").innerText = "Module not supported. Update browser/device.";
-   </script>
 </html>
